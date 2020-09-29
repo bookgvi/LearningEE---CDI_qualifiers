@@ -3,18 +3,15 @@ package com.localhost.beans;
 import javax.enterprise.context.RequestScoped;
 
 @RequestScoped
-@Greetings(value = "Greeting")
-public class Greeting implements IGreeting {
-  private String name = "Greeting";
+@GreetingPRogr3
+public class Greeting3 implements IGreeting {
+  private String name = "Greeting3";
 
   public String getName() {
-    return this.name;
+    return name;
   }
 
   public void setName(String name) {
     this.name = name;
   }
 }
-
-
-

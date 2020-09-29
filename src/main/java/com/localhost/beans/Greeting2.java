@@ -3,9 +3,9 @@ package com.localhost.beans;
 import javax.enterprise.context.RequestScoped;
 
 @RequestScoped
-@Greetings(value = "masha")
+@GreetingPRogr2(value = "Greeting2")
 public class Greeting2 implements IGreeting {
-  private String name = "Masha";
+  private String name = "Greeting2";
 
   public String getName() {
     return name;
