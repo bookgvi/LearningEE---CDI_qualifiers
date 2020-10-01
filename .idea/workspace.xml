@@ -8,9 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="768f652d-9cce-4d44-a1df-02e80fe09ea3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/beans/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/beans/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/beans/Greeting2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/beans/Greeting2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/controllers/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/controllers/HelloServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="false" />
-    <option name="FILTER_DEBUG" value="false" />
+    <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1iCG5ZxVBBbYvdBZtRyzrv842If" />
@@ -152,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601403977457</updated>
-      <workItem from="1601403978639" duration="8782000" />
+      <workItem from="1601403978639" duration="9003000" />
+      <workItem from="1601577072342" duration="1796000" />
     </task>
     <servers />
   </component>
@@ -164,7 +162,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
