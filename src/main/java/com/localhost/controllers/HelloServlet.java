@@ -27,6 +27,7 @@ public class HelloServlet extends HttpServlet {
 
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    System.out.printf("Refletion IGreeting: %s%n", (Object) IGreeting.class.getDeclaredAnnotations());
     resp.getWriter().write(String.valueOf(greeting.getName()) + "\n");
     resp.getWriter().write(String.valueOf(greeting2.getName()) + "\n");
     resp.getWriter().write(String.valueOf(greeting3.getName()) + "\n");
