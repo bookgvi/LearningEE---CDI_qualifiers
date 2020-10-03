@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768f652d-9cce-4d44-a1df-02e80fe09ea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/controllers/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/controllers/HelloServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="768f652d-9cce-4d44-a1df-02e80fe09ea3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,7 +151,7 @@
       <workItem from="1601577072342" duration="2876000" />
       <workItem from="1601676944159" duration="20000" />
       <workItem from="1601677110003" duration="1489000" />
-      <workItem from="1601707517123" duration="602000" />
+      <workItem from="1601707517123" duration="2272000" />
     </task>
     <servers />
   </component>
