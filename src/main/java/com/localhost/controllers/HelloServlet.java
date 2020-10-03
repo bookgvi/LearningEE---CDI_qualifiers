@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
@@ -27,7 +30,17 @@ public class HelloServlet extends HttpServlet {
 
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    System.out.printf("Refletion IGreeting: %s%n", (Object) IGreeting.class.getDeclaredAnnotations());
+    System.out.printf("Refletion IGreeting: %s%n", (Object) Greeting.class.getDeclaredAnnotations());
+    Field[] fields = Greeting.class.getDeclaredFields();
+    Method[] methods = Greeting.class.getDeclaredMethods();
+    for (Field field: fields) {
+      System.out.printf("Field name: %ss%n", field.getName());
+      System.out.printf("Field type: %ss%n", field.getType().getName());
+    }
+    for (Method method: methods) {
+      System.out.printf("Method name: %ss%n", method.getName());
+      System.out.printf("Method type: %ss%n", method.getReturnType().getName());
+    }
     resp.getWriter().write(String.valueOf(greeting.getName()) + "\n");
     resp.getWriter().write(String.valueOf(greeting2.getName()) + "\n");
     resp.getWriter().write(String.valueOf(greeting3.getName()) + "\n");
