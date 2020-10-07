@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768f652d-9cce-4d44-a1df-02e80fe09ea3" name="Default Changelist" comment="" />
+    <list default="true" id="768f652d-9cce-4d44-a1df-02e80fe09ea3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/beans/GreetingPRogr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/beans/GreetingPRogr2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/localhost/beans/GreetingPRogr3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localhost/beans/GreetingPRogr3.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +154,10 @@
       <workItem from="1601577072342" duration="2876000" />
       <workItem from="1601676944159" duration="20000" />
       <workItem from="1601677110003" duration="1489000" />
-      <workItem from="1601707517123" duration="2272000" />
+      <workItem from="1601707517123" duration="3001000" />
+      <workItem from="1601790623573" duration="1267000" />
+      <workItem from="1601893586195" duration="463000" />
+      <workItem from="1602091916838" duration="558000" />
     </task>
     <servers />
   </component>

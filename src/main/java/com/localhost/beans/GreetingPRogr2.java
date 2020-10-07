@@ -12,9 +12,9 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.FIELD})
 public @interface GreetingPRogr2 {
   String value() default "QQQ";
-  final class Literal extends AnnotationLiteral<GreetingPRogr2> implements GreetingPRogr2 {
+  static final class Literal extends AnnotationLiteral<GreetingPRogr2> implements GreetingPRogr2 {
     private final String value;
-    public static Literal INSTANCE = of("QQQ");
+    public static GreetingPRogr2.Literal INSTANCE = GreetingPRogr2.Literal.of("QQQ");
 
     public static Literal of(String value) {
       return new Literal(value);
